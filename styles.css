@@ -50,11 +50,16 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	width: 300px;
+	width: 350px;
 	padding: 20px 35px 20px;
 	margin-bottom: 20px;
 	border: 1px solid lightgrey;
 	background-color: white;
+}
+.group p {
+	display: inline-block;
+	margin-bottom: 5px;
+	color: grey;
 }
 .change-account a {
 	display: block;
@@ -72,7 +77,19 @@ body {
 	margin-top: 20px;
 	text-align: center;
 }
-
+/* Botões */
+.continue {
+	background-color: #0095f6;
+	color: white;
+	padding: 8px;
+	margin: 10px 0 10px;
+	border-radius: 4px;
+}
+.blue-link {
+	color: #0095f6;
+	margin-top: 1rem;
+	font-weight: normal;
+}
 
 /* Tamanho das imagens */
 .logo {
@@ -128,13 +145,13 @@ footer {
 		width: 0;
 		height: 0;
 		visibility: hidden;
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 0;
 	}
 	.insta-logger {
 		position: relative;
-		margin-top: 20%;
+		margin-top: 5%;
 		margin-bottom: 100px;
 	}
 }
